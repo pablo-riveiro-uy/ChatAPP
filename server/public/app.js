@@ -1,6 +1,8 @@
 
-const socket = io('ws://localhost:3500')
-//const socket = io('https://chatapp-rsif.onrender.com')
+// dev server
+// const socket = io('ws://localhost:3500')
+// production server
+const socket = io('https://chatapp-rsif.onrender.com')
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
