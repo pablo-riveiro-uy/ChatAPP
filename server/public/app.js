@@ -1,4 +1,4 @@
-const socket = io('https://chatapp-ol6h.onrender.com')
+const socket = io('https://chatapp-rsif.onrender.com')
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
